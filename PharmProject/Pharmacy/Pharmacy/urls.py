@@ -31,5 +31,13 @@ urlpatterns = [
     path('uploadpic',views.uploadpic,name="uploadpic"),
     path('update_item',views.updateItem,name="update_item"),
     path('process_order',views.processOrder,name="process_order"),
+    path('pay',views.homepay,name='pay'),
+    path('track',views.track,name='track'),
+    path('success',views.success,name='success'),
+    path('edit',views.edit,name='edit'),
+    path('view', views.view, name='view'),
+    path('delete/<str:email>', views.delete, name='delete'),
+    path('updated/<str:email>', views.updated, name='updated'),
+    path('update/', views.update, name='update'),
 ]
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
