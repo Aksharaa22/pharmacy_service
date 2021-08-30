@@ -1,1 +1,1 @@
-# pharmacy_service
+Developed an Enterprise Web application build with Django Framework, which is titled as “Pharmaceutical Supply Services” where people can buy medicines which is integrated with Razor pay API (Payment Gateway).       
